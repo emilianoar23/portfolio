@@ -1,1 +1,46 @@
-
+.section {
+    box-sizing: border-box;
+    padding: 6em 0 4em;
+    text-align: justify;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    &__title {
+      font: 200 4em/1.5 $font-stack-title;
+      text-transform: lowercase;
+      margin: 0 0 .4em;
+      text-align: left;
+  
+      &--main {
+        text-align: center;
+        font-size: 8em;
+      }
+    }
+  }
+  
+  .home {
+    background: $color-home url("http://cooldown.fr/wp-content/uploads/2016/05/no-mans-sky-montagnes.jpg") no-repeat
+      50% 50%;
+    padding: 4em 0 6em;
+    background-size: cover;
+  }
+  
+  .details {
+    background: $color-details url("http://cooldown.fr/wp-content/uploads/2016/05/no-mans-sky-min%C3%A9raux.jpg") no-repeat
+      50% 50%;
+    background-size: cover;
+  }
+  
+  .about {
+    background: $color-others url("https://image.noelshack.com/fichiers/2017/10/1488969676-no-mans-sky.jpg")
+      no-repeat 50% 50%;
+    background-size: cover;
+  }
+  
+  .others {
+    background: $color-others url("http://cdn.wccftech.com/wp-content/uploads/2015/08/No-Mans-Sky-Gamescom-17.jpg")
+      no-repeat 50% 50%;
+    background-size: cover;
+  }
