@@ -6,6 +6,17 @@ $font-size:
 60px,
 70px;
 
-//Color
-$primary-color: #333;
-$secondary-color: #fff;
+$font-stack-title: $font-stack-common;
+
+$color-light: #eee;
+$color-home: #9bc8e0;
+$color-details: #eecf93;
+$color-others: #99c18e;
+$color-menu: #323537;
+
+
+$font-stack-common: "Source Sans Pro", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+$font-stack-title: $font-stack-common;
+
+$color-light: #eee;
+$color-menu: #323537;

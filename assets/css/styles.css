@@ -9,22 +9,6 @@ body {
   display: flex;
   flex-direction: column; }
 
-@media (max-width: 768px) {
-  .navbar .hamburger-menu {
-    display: block; }
-  .navbar .nav-menu {
-    display: none;
-    flex-direction: column;
-    background-color: #1a1a1a;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%; }
-    .navbar .nav-menu.active {
-      display: flex; }
-    .navbar .nav-menu ul li {
-      border-bottom: 1px solid #fff; } }
-
 .navbar {
   display: flex;
   justify-content: space-between;
