@@ -18,7 +18,7 @@ body {
   padding: 0 2%; }
 
 @media only screen and (max-width: 766px) {
-  header {
+  .header-js {
     padding-top: 25px; } }
 
 header {
@@ -36,10 +36,6 @@ header {
   top: -100px;
   padding-bottom: 6px; }
 
-@media only screen and (max-width: 766px) {
-  .main_h {
-    padding-top: 25px; } }
-
 .open-nav {
   max-height: 400px !important; }
 
@@ -50,8 +46,7 @@ header {
 .sticky {
   background-color: #393838;
   opacity: 1;
-  top: 0px;
-  border-bottom: 1px solid gainsboro; }
+  top: 0px; }
 
 .logo {
   width: 50px;
