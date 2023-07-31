@@ -10,4 +10,13 @@
 body {
     display: flex;
     flex-direction: column;
+    -webkit-font-smoothing: antialiased;
 }
+
+.row {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+  }
