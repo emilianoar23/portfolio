@@ -17,7 +17,11 @@ body {
   position: relative;
   padding: 0 2%; }
 
-.main_h {
+@media only screen and (max-width: 766px) {
+  header {
+    padding-top: 25px; } }
+
+header {
   position: fixed;
   top: 0px;
   max-height: 70px;
@@ -30,8 +34,7 @@ body {
   transition: all 0.3s;
   opacity: 0;
   top: -100px;
-  padding-bottom: 6px;
-  font-family: "Montserrat", sans-serif; }
+  padding-bottom: 6px; }
 
 @media only screen and (max-width: 766px) {
   .main_h {
@@ -45,7 +48,7 @@ body {
   -webkit-transform: rotate(-90deg); }
 
 .sticky {
-  background-color: rgba(255, 255, 255, 0.93);
+  background-color: #393838;
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro; }
