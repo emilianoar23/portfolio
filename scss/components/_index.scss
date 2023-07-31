@@ -1,17 +1,13 @@
 
 .open-nav {
-  max-height: 400px !important;
+  max-height: 400px;
 }
 .open-nav .mobile-toggle {
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
 }
 
-.sticky {
-  background-color: $bg-color;
-  opacity: 1;
-  top: 0px;
-}
+
 
 .logo {
   width: 50px;
@@ -67,7 +63,7 @@ nav ul li {
   }
 }
 nav ul a {
-  color: #888888;
+  color: #d4d4d4;
   text-transform: uppercase;
   font-size: 12px;
 }
@@ -141,7 +137,7 @@ p {
 
 .hero {
   position: relative;
-  background: url(http://www.philippefercha.com/cd/toggle-menu-bg.jpg) no-repeat center center fixed;
+  background: url(../../assets/img/5055263.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
