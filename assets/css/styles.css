@@ -10,10 +10,6 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased; }
 
-@media only screen and (max-width: 766px) {
-  .header-js {
-    padding-top: 25px; } }
-
 header {
   position: fixed;
   top: 0px;
@@ -34,29 +30,30 @@ header {
     margin: 0 auto;
     position: relative;
     padding: 0 2%; }
+    header .row .logo {
+      color: #d4d4d4;
+      text-transform: uppercase;
+      float: left;
+      display: block;
+      margin-top: 0;
+      line-height: 1;
+      margin-bottom: 10px; }
+      header .row .logo h1 {
+        font-size: 1.2em;
+        font-weight: lighter;
+        text-transform: none; }
+  header nav ul a {
+    color: #d4d4d4;
+    text-transform: uppercase;
+    font-size: 12px; }
+    header nav ul a:hover {
+      color: #e8f380;
+      text-shadow: 1px 1px 5px #afb861; }
 
 .sticky {
   background-color: #393838;
   opacity: 1;
   top: 0px; }
-
-.open-nav {
-  max-height: 400px; }
-
-.open-nav .mobile-toggle {
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg); }
-
-.logo {
-  width: 50px;
-  font-size: 25px;
-  color: #8f8f8f;
-  text-transform: uppercase;
-  float: left;
-  display: block;
-  margin-top: 0;
-  line-height: 1;
-  margin-bottom: 10px; }
 
 @media only screen and (max-width: 766px) {
   .logo {
@@ -95,11 +92,6 @@ nav ul li {
     padding: 7px 0;
     margin: 0; } }
 
-nav ul a {
-  color: #d4d4d4;
-  text-transform: uppercase;
-  font-size: 12px; }
-
 .mobile-toggle {
   display: none;
   cursor: pointer;
@@ -121,7 +113,7 @@ nav ul a {
   height: 4px;
   margin-bottom: 6px;
   border-radius: 1000px;
-  background: #8f8f8f;
+  background: #d4d4d4;
   display: block; }
 
 .row {
@@ -233,3 +225,14 @@ p {
     -webkit-transform: translateY(20px);
     -ms-transform: translateY(20px);
     transform: translateY(20px); } }
+
+.open-nav {
+  max-height: 400px; }
+
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg); }
+
+@media only screen and (max-width: 766px) {
+  .header-js {
+    padding-top: 25px; } }

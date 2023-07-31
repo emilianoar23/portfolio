@@ -1,25 +1,3 @@
-
-.open-nav {
-  max-height: 400px;
-}
-.open-nav .mobile-toggle {
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-}
-
-
-
-.logo {
-  width: 50px;
-  font-size: 25px;
-  color: #8f8f8f;
-  text-transform: uppercase;
-  float: left;
-  display: block;
-  margin-top: 0;
-  line-height: 1;
-  margin-bottom: 10px;
-}
 @media only screen and (max-width: 766px) {
   .logo {
     float: none;
@@ -62,11 +40,7 @@ nav ul li {
     margin: 0;
   }
 }
-nav ul a {
-  color: #d4d4d4;
-  text-transform: uppercase;
-  font-size: 12px;
-}
+
 
 .mobile-toggle {
   display: none;
@@ -90,7 +64,7 @@ nav ul a {
   height: 4px;
   margin-bottom: 6px;
   border-radius: 1000px;
-  background: #8f8f8f;
+  background: $font-grey;
   display: block;
 }
 

@@ -18,11 +18,38 @@ header {
         margin: 0 auto;
         position: relative;
         padding: 0 2%;
-      }
-  }
+        .logo {
+            color: $font-grey;
+            text-transform: uppercase;
+            float: left;
+            display: block;
+            margin-top: 0;
+            line-height: 1;
+            margin-bottom: 10px;
+            h1 {
+                font-size: 1.2em;
+                font-weight: lighter;
+                text-transform: none;
+            }
+        }
+    }
+    nav {
+        ul {
+            a {
+                color: $font-grey;
+                text-transform: uppercase;
+                font-size: 12px;
+                &:hover {
+                    color: $font-hero;
+                    text-shadow: 1px 1px 5px #afb861;
+                }
+            }
+        }
+    }
+}
 
-  .sticky {
+.sticky {
     background-color: $bg-color;
     opacity: 1;
     top: 0px;
-  }
+}
