@@ -1,25 +1,25 @@
 $(window).scroll(function () {
   if ($(window).scrollTop() > 100) {
-    $('#header-js').addClass('sticky')
+    $('#header-js').addClass('sticky');
   } else {
-    $('#header-js').removeClass('sticky')
+    $('#header-js').removeClass('sticky');
   }
-})
+});
 
 $('.mobile-toggle').click(function () {
   if ($('#header-js').hasClass('open-nav')) {
-    $('#header-js').removeClass('open-nav')
+    $('#header-js').removeClass('open-nav');
   } else {
-    $('#header-js').addClass('open-nav')
+    $('#header-js').addClass('open-nav');
   }
-})
+});
 
 $('nav a').click(function (event) {
-  let id = $(this).attr("href")
-  let offset = 70
-  let target = $(id).offset().top - offset
+  let id = $(this).attr("href");
+  let offset = 70;
+  let target = $(id).offset().top - offset;
   $('html, body').animate({
     scrollTop: target
-  }, 500)
-  event.preventDefault()
-})
+  }, 500);
+  event.preventDefault();
+});
