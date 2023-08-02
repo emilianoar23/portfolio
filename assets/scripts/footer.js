@@ -1,5 +1,5 @@
-let currentYearElement = document.getElementById('currentYear');
+let currentYearElement = document.getElementById('currentYear')
 
-let currentYear = new Date().getFullYear();
+let currentYear = new Date().getFullYear()
 
-currentYearElement.textContent = currentYear;
+currentYearElement.textContent = currentYear
