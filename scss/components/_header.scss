@@ -43,6 +43,7 @@ header {
                 a {
                     color: $font-grey;
                     text-transform: uppercase;
+                    text-decoration: none;
                     font-size: 12px;
                     &:hover {
                         color: $font-hero;
@@ -66,7 +67,7 @@ header {
 }
 
 .sticky {
-    background-color: $bg-color;
+    background-color: $bg-header;
     opacity: 1;
     top: 0px;
     transition: all 0.3s ease;
