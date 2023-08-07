@@ -5,20 +5,40 @@ footer {
     height: 30vh;
     background: $bg-header;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     .social-media {
+            display: flex;
+            flex-direction: column; // Cambiar la dirección de los elementos a columna
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+    
+            p {
+                color: $font-grey;
+                margin: 0; // Eliminar el margen superior e inferior del párrafo
+            }
+    
+            .social-icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5px; // Ajustar el margen superior entre el texto y los íconos
+    
+                a {
+                    margin: 0 5px; // Ajustar el margen lateral entre los íconos
+                }
+            }
+        }
+    .contact-info {
         display: flex;
         justify-content: center;
         align-items: center;
-        a {
-            margin: 0 10px;
-        }
+        margin-right: 20px;
     }
     p {
         text-align: center;
         color: $font-grey;
-        margin-top: 10px;
+        margin: 0;
     }
 }

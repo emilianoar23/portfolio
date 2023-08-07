@@ -231,19 +231,33 @@ footer {
   height: 30vh;
   background: #393838;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; }
   footer .social-media {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    footer .social-media a {
-      margin: 0 10px; }
+    align-items: center;
+    margin-left: 20px; }
+    footer .social-media p {
+      color: #d4d4d4;
+      margin: 0; }
+    footer .social-media .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5px; }
+      footer .social-media .social-icons a {
+        margin: 0 5px; }
+  footer .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; }
   footer p {
     text-align: center;
     color: #d4d4d4;
-    margin-top: 10px; }
+    margin: 0; }
 
 @media only screen and (max-width: 766px) {
   .logo {
