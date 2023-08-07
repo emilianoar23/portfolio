@@ -19,20 +19,12 @@ header {
         position: relative;
         padding: 0 2%;
         .logo {
-            color: $font-grey;
-            text-transform: uppercase;
             float: left;
             display: block;
-            margin-top: 0;
             line-height: 1;
             margin-bottom: 10px;
-            h1 {
-                font-size: 1.2em;
-                font-weight: lighter;
-                text-transform: none;
-                span {
-                    color: $font-hero;
-                }
+            img {
+                width: 25px;
             }
         }
     }

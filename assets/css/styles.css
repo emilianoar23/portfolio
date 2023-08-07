@@ -31,19 +31,12 @@ header {
     position: relative;
     padding: 0 2%; }
     header .row .logo {
-      color: #d4d4d4;
-      text-transform: uppercase;
       float: left;
       display: block;
-      margin-top: 0;
       line-height: 1;
       margin-bottom: 10px; }
-      header .row .logo h1 {
-        font-size: 1.2em;
-        font-weight: lighter;
-        text-transform: none; }
-        header .row .logo h1 span {
-          color: #e8f380; }
+      header .row .logo img {
+        width: 25px; }
   header nav ul li {
     position: relative; }
     header nav ul li a {
