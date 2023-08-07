@@ -4,7 +4,7 @@ $('.logo').click(function (event) {
 
   $('html, body').animate({
     scrollTop: target
-  }, 600);
+  }, 900);
   event.preventDefault();
 });
 
