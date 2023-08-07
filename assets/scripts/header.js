@@ -1,3 +1,14 @@
+//Home 
+$('.logo').click(function (event) {
+  let target = $('.hero').offset().top;
+
+  $('html, body').animate({
+    scrollTop: target
+  }, 600);
+  event.preventDefault();
+});
+
+//Nav
 $(window).scroll(function () {
   if ($(window).scrollTop() > 100) {
     $('#header-js').addClass('sticky');
