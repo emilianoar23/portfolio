@@ -231,33 +231,40 @@ footer {
   height: 30vh;
   background: #393838;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  footer .social-media {
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 20px; }
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%; }
+  footer .social-media,
+  footer .contact-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 20px; }
-    footer .social-media p {
-      color: #d4d4d4;
-      margin: 0; }
-    footer .social-media .social-icons {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 5px; }
-      footer .social-media .social-icons a {
-        margin: 0 5px; }
-  footer .contact-info {
+    margin: 0 100px;
+    font-weight: bold; }
+  footer p {
+    color: #d4d4d4;
+    margin: 0; }
+  footer .social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px; }
-  footer p {
-    text-align: center;
+    margin-top: 5px; }
+    footer .social-icons a {
+      margin: 0 5px; }
+      footer .social-icons a img {
+        width: 50px; }
+  footer .contact-info a {
     color: #d4d4d4;
-    margin: 0; }
+    text-decoration: none;
+    font-weight: lighter;
+    margin-top: 15px; }
 
 @media only screen and (max-width: 766px) {
   .logo {
