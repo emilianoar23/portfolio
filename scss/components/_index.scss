@@ -14,7 +14,7 @@
 }
 
 .sticky {
-  background-color: $bg-color;
+  background-color: $bg-header;
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
@@ -148,7 +148,7 @@ p {
 
 .hero {
   position: relative;
-  background: url(http://www.philippefercha.com/cd/toggle-menu-bg.jpg) no-repeat center center fixed;
+  background: url(../../assets/img/5055263.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

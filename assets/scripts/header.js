@@ -1,3 +1,14 @@
+//Home 
+$('.logo').click(function (event) {
+  let target = $('.hero').offset().top;
+
+  $('html, body').animate({
+    scrollTop: target
+  }, 900);
+  event.preventDefault();
+});
+
+//Nav
 $(window).scroll(function () {
   if ($(window).scrollTop() > 100) {
     $('#header-js').addClass('sticky');
@@ -14,13 +25,6 @@ $('.mobile-toggle').click(function () {
   }
 });
 
-$('#main_h li a').click(function () {
-  if ($('#header-js').hasClass('open-nav')) {
-    $('.navigation').removeClass('open-nav');
-    $('header-js').removeClass('open-nav');
-  }
-});
-
 $('nav a').click(function (event) {
   let id = $(this).attr("href");
   let offset = 70;
@@ -30,3 +34,10 @@ $('nav a').click(function (event) {
   }, 500);
   event.preventDefault();
 });
+
+//Footer
+let currentYearElement = document.getElementById('currentYear')
+
+let currentYear = new Date().getFullYear()
+
+currentYearElement.textContent = currentYear
