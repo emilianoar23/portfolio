@@ -1,5 +1,36 @@
 @media only screen and (max-width: 766px) {
-    header {
-      padding-top: 25px;
-    }
+  .logo {
+      float: none;
   }
+
+  nav {
+      float: right;
+      width: 60%;
+  }
+
+  nav ul {
+      list-style: none;
+      overflow: hidden;
+      text-align: right;
+      float: right;
+  }
+
+  nav ul li {
+      display: inline-block;
+      margin-left: 35px;
+      line-height: 1.5;
+  }
+
+  .mobile-toggle {
+      display: block;
+  }
+
+  .mobile-toggle span {
+      width: 30px;
+      height: 4px;
+      margin-bottom: 6px;
+      border-radius: 1000px;
+      background: $font-grey;
+      display: block;
+  }
+}
