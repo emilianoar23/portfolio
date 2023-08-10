@@ -1,12 +1,12 @@
 
 @media only screen and (max-width: 766px) {
-  .main_h {
+  #header-js {
     padding-top: 25px;
   }
 }
 
 .open-nav {
-  max-height: 400px !important;
+  max-height: 400px;
 }
 .open-nav .mobile-toggle {
   transform: rotate(-90deg);

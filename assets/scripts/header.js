@@ -1,4 +1,4 @@
-//Home 
+//scroll home 
 $('.logo').click(function (event) {
   let target = $('.hero').offset().top;
 
@@ -8,7 +8,7 @@ $('.logo').click(function (event) {
   event.preventDefault();
 });
 
-//Nav
+//scroll nav
 $(window).scroll(function () {
   if ($(window).scrollTop() > 100) {
     $('#header-js').addClass('sticky');
@@ -35,7 +35,7 @@ $('nav a').click(function (event) {
   event.preventDefault();
 });
 
-//Footer
+//Actualizar fecha del footer
 let currentYearElement = document.getElementById('currentYear')
 
 let currentYear = new Date().getFullYear()
