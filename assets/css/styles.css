@@ -168,8 +168,7 @@ a {
 h1 {
   font-size: 30px;
   line-height: 1.8;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif; }
+  text-transform: uppercase; }
 
 p {
   margin-bottom: 20px;
@@ -188,8 +187,7 @@ p {
   text-align: center;
   padding-top: 110px;
   min-height: 500px;
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif; }
+  letter-spacing: 2px; }
 
 .hero h1 {
   font-size: 50px;
