@@ -37,3 +37,15 @@ p {
   font-size: 17px;
   line-height: 2;
 }
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+.content {
+  padding: 50px 2% 250px;
+}
