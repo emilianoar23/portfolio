@@ -1,5 +1,4 @@
 @media only screen and (max-width: 766px) {
-
   .open-nav {
     max-height: 400px;
     .mobile-toggle {
@@ -7,15 +6,15 @@
       -webkit-transform: rotate(-90deg);
     }
   }
-
 }
-
-  nav ul {
+nav {
+  ul {
     list-style: none;
     overflow: hidden;
     text-align: right;
     float: right;
   }
+}
   @media only screen and (max-width: 766px) {
     nav ul {
       padding-top: 10px;
@@ -54,13 +53,14 @@
   @media only screen and (max-width: 766px) {
     .mobile-toggle {
       display: block;
+      span {
+        width: 30px;
+        height: 4px;
+        margin-bottom: 6px;
+        border-radius: 1000px;
+        background: $font-grey;
+        display: block;
+      }
     }
   }
-  .mobile-toggle span {
-    width: 30px;
-    height: 4px;
-    margin-bottom: 6px;
-    border-radius: 1000px;
-    background: $font-grey;
-    display: block;
-  }
+ 
