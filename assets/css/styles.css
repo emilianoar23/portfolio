@@ -10,6 +10,11 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased; }
 
+.row .sobre-mi p, .row p {
+  font-size: 1.1rem;
+  line-height: 2;
+  margin-bottom: 10px; }
+
 header {
   position: fixed;
   top: 0px;
@@ -93,19 +98,10 @@ header {
   padding: 0 2%; }
   .row.content {
     padding: 50px 2% 250px; }
-
-.sobre-mi p {
-  margin-bottom: 20px; }
-
-h1 {
-  font-size: 30px;
-  line-height: 1.8;
-  text-transform: uppercase; }
-
-p {
-  margin-bottom: 20px;
-  font-size: 17px;
-  line-height: 2; }
+  .row .sobre-mi h2 {
+    font-size: 30px;
+    line-height: 1.8;
+    text-align: center; }
 
 @-webkit-keyframes scroll {
   0% {
@@ -128,6 +124,11 @@ p {
     -webkit-transform: translateY(20px);
     -ms-transform: translateY(20px);
     transform: translateY(20px); } }
+
+.row .sobre-mi p, .row p {
+  font-size: 1.1rem;
+  line-height: 2;
+  margin-bottom: 10px; }
 
 footer {
   width: 100%;

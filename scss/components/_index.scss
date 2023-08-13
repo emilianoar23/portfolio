@@ -29,24 +29,26 @@
   &.content {
     padding: 50px 2% 250px;
   }
+  .sobre-mi {
+    h2 {
+      font-size: 30px;
+      line-height: 1.8;
+      text-align: center;
+    }
+    p {
+      @extend %parrafo;
+    }
+  }
+  
+
+  
+  p {
+    @extend %parrafo;
+  }
 }
 
 
-.sobre-mi p {
-  margin-bottom: 20px;
-}
 
-h1 {
-  font-size: 30px;
-  line-height: 1.8;
-  text-transform: uppercase;
-}
-
-p {
-  margin-bottom: 20px;
-  font-size: 17px;
-  line-height: 2;
-}
 
 
 

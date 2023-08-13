@@ -5,9 +5,6 @@ $font-grey: #d4d4d4;
 
 $font-hero: #e8f380;
 
-
-
-
 //paleta nueva
 $letra:#FAF5F5;
 $color1: #9D9B9D;
@@ -21,3 +18,11 @@ $color7: #eaefd3;
 $color8: #b3c0a4;
 $color9: #505168;
 $color10: #27233a;
+
+
+//Estilo de parrafo
+%parrafo {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 10px;
+}
