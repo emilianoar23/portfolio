@@ -39,7 +39,6 @@ header {
                     font-size: 12px;
                     &:hover {
                         color: $dt-color1;
-                        text-shadow: 1px 1px 5px #caab1d;
                         &::after {
                             content: "";
                             display: block;

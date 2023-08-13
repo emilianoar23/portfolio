@@ -21,19 +21,75 @@
   }
 }
 .sobre-mi {
+  height: 90vh;
+  background-color: $bg-bdy;
   .row {
     @extend %row;
     h2 {
       @extend %titulos;
-      color: $font-white;
+      color: $font-dark;
+      padding: 30px 0;
     }
     p {
       @extend %parrafo;
-      color: $font-white;
+      color: $font-dark;
     }
   }
-  background-color: $bg-hdr-ftr;
 }
+.time-line {
+  background-color: $bg-hdr-ftr;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    @extend %titulos;
+    color: $font-white;
+    margin: 30px 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 7rem;
+    ul {
+      list-style: none;
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 0;
+        width: 0.1rem;
+        height: 100%;
+        content: '';
+        background: $dt-color1;
+      }
+      li {
+        margin-bottom: 2rem;
+        width: 55rem;
+        padding: 0 3rem;
+        position: relative;
+        color: $font-white;
+        &::before {
+          position: absolute;
+          content: '';
+          top: 0;
+          left: 0.1rem;
+          width: 0.58rem;
+          height: 0.58rem;
+          border: 0.22rem solid #2b292c;
+          background: $dt-color1;
+          border-radius: 50%;
+          transform: translateX(-50%);
+        }
+        span {
+          position: absolute;
+          top: 0;
+          left: -2.5rem;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
 .skills {
   h2 {
     @extend %titulos;

@@ -19,9 +19,10 @@ body {
   .sobre-mi .content.row {
     padding: 50px 2% 250px; }
 
-.sobre-mi .row h2, .skills h2, .portfolio h2, .contacto h2 {
+.sobre-mi .row h2, .time-line h2, .skills h2, .portfolio h2, .contacto h2 {
   font-size: 2rem;
   line-height: 1.8;
+  font-weight: lighter;
   margin-bottom: 10px;
   text-align: center; }
 
@@ -65,8 +66,7 @@ header {
       text-decoration: none;
       font-size: 12px; }
       header nav ul li a:hover {
-        color: #edc720;
-        text-shadow: 1px 1px 5px #caab1d; }
+        color: #edc720; }
         header nav ul li a:hover::after {
           content: "";
           display: block;
@@ -106,11 +106,58 @@ header {
       line-height: 3; }
 
 .sobre-mi {
-  background-color: #2b292c; }
+  height: 90vh;
+  background-color: #f9f9f9; }
   .sobre-mi .row h2 {
-    color: #FAFBFB; }
+    color: #29242B;
+    padding: 30px 0; }
   .sobre-mi .row p {
-    color: #FAFBFB; }
+    color: #29242B; }
+
+.time-line {
+  background-color: #2b292c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .time-line h2 {
+    color: #FAFBFB;
+    margin: 30px 0; }
+  .time-line .container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 7rem; }
+    .time-line .container ul {
+      list-style: none;
+      position: relative; }
+      .time-line .container ul::before {
+        position: absolute;
+        top: 0;
+        width: 0.1rem;
+        height: 100%;
+        content: '';
+        background: #edc720; }
+      .time-line .container ul li {
+        margin-bottom: 2rem;
+        width: 55rem;
+        padding: 0 3rem;
+        position: relative;
+        color: #FAFBFB; }
+        .time-line .container ul li::before {
+          position: absolute;
+          content: '';
+          top: 0;
+          left: 0.1rem;
+          width: 0.58rem;
+          height: 0.58rem;
+          border: 0.22rem solid #2b292c;
+          background: #edc720;
+          border-radius: 50%;
+          transform: translateX(-50%); }
+        .time-line .container ul li span {
+          position: absolute;
+          top: 0;
+          left: -2.5rem;
+          font-size: 0.8rem; }
 
 @-webkit-keyframes scroll {
   0% {
@@ -143,9 +190,10 @@ header {
   .sobre-mi .content.row {
     padding: 50px 2% 250px; }
 
-.sobre-mi .row h2, .skills h2, .portfolio h2, .contacto h2 {
+.sobre-mi .row h2, .time-line h2, .skills h2, .portfolio h2, .contacto h2 {
   font-size: 2rem;
   line-height: 1.8;
+  font-weight: lighter;
   margin-bottom: 10px;
   text-align: center; }
 
