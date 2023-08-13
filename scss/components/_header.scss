@@ -33,19 +33,19 @@ header {
             li {
                 position: relative;
                 a {
-                    color: $font-grey;
+                    color: $font-white;
                     text-transform: uppercase;
                     text-decoration: none;
                     font-size: 12px;
                     &:hover {
-                        color: $font-hero;
-                        text-shadow: 1px 1px 5px #afb861;
+                        color: $dt-color1;
+                        text-shadow: 1px 1px 5px #caab1d;
                         &::after {
                             content: "";
                             display: block;
                             width: 100%;
                             height: 6px;
-                            background-color: $font-hero;
+                            background-color: $dt-color1;
                             position: absolute;
                             bottom: -5px;
                             left: 0;
@@ -59,9 +59,9 @@ header {
 }
 
 .sticky {
-    background-color: $bg-header;
+    background-color: $bg-hdr-ftr;
     opacity: 1;
     top: 0px;
     transition: all 0.3s ease;
-    border-bottom: 1px solid #daf10a;
+    border-bottom: 1px solid #9c8416;
 }

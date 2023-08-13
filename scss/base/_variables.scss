@@ -1,23 +1,16 @@
+//color de letra
+$font-white: #FAFBFB;
+$font-dark: #29242B;
+
+//detalles
+$dt-color1: #edc720;
+$dt-color2: #2D2137;
+
+//color contenedores
 $bg-bdy: #f9f9f9;
-$bg-header: #393838;
-$bg-section: #505168;
-$font-grey: #d4d4d4;
-
-$font-hero: #e8f380;
-
-//paleta nueva
-$letra:#FAF5F5;
-$color1: #9D9B9D;
-$color2: #9591A4;
-$color3: #D39B23;
-$color4: #2D2137;
-
-//paleta nueva
-$color6: #dcc48e;
-$color7: #eaefd3;
-$color8: #b3c0a4;
-$color9: #505168;
-$color10: #27233a;
+$bg-hdr-ftr: #2b292c;
+$bg-container1: #9591A4;
+$bg-container2: #9D9B9D;
 
 //Estilo de seccion
 %row {

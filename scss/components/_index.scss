@@ -13,8 +13,8 @@
     line-height: 1.3;
     span {
       font-size: 25px;
-      color: #e8f380;
-      border-bottom: 2px solid #e8f380;
+      color: $dt-color1;
+      border-bottom: 2px solid $dt-color1;
       padding-bottom: 12px;
       line-height: 3;
     }
@@ -25,12 +25,14 @@
     @extend %row;
     h2 {
       @extend %titulos;
+      color: $font-white;
     }
     p {
       @extend %parrafo;
+      color: $font-white;
     }
   }
-  background-color: #bebebe
+  background-color: $bg-hdr-ftr;
 }
 .skills {
   h2 {
