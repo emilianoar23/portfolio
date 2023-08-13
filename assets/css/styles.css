@@ -10,7 +10,13 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased; }
 
-.row .sobre-mi p, .row p {
+.row .sobre-mi h2, .row .skills h2 {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.row .sobre-mi p, .row .skills p, .row p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px; }
@@ -98,10 +104,6 @@ header {
   padding: 0 2%; }
   .row.content {
     padding: 50px 2% 250px; }
-  .row .sobre-mi h2 {
-    font-size: 30px;
-    line-height: 1.8;
-    text-align: center; }
 
 @-webkit-keyframes scroll {
   0% {
@@ -125,7 +127,13 @@ header {
     -ms-transform: translateY(20px);
     transform: translateY(20px); } }
 
-.row .sobre-mi p, .row p {
+.row .sobre-mi h2, .row .skills h2 {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.row .sobre-mi p, .row .skills p, .row p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px; }

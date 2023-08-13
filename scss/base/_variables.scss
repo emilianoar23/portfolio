@@ -20,6 +20,15 @@ $color9: #505168;
 $color10: #27233a;
 
 
+
+//Estilo de titulos
+%titulos {
+    font-size: 2rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
 //Estilo de parrafo
 %parrafo {
     font-size: 1.1rem;

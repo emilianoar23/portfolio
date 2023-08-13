@@ -29,17 +29,22 @@
   &.content {
     padding: 50px 2% 250px;
   }
-  .sobre-mi {
+    .sobre-mi {
+      h2 {
+        @extend %titulos;
+      }
+      p {
+        @extend %parrafo;
+      }
+    }
+  .skills {
     h2 {
-      font-size: 30px;
-      line-height: 1.8;
-      text-align: center;
+      @extend %titulos;
     }
     p {
       @extend %parrafo;
     }
   }
-  
 
   
   p {
