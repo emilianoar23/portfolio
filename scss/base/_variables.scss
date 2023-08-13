@@ -19,7 +19,17 @@ $color8: #b3c0a4;
 $color9: #505168;
 $color10: #27233a;
 
-
+//Estilo de seccion
+%row {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+    &.content {
+      padding: 50px 2% 250px;
+    }
+}
 
 //Estilo de titulos
 %titulos {

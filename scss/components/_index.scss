@@ -20,24 +20,9 @@
     }
   }
 }
-.row {
-  width: 100%;
-  max-width: 940px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 2%;
-  &.content {
-    padding: 50px 2% 250px;
-  }
-    .sobre-mi {
-      h2 {
-        @extend %titulos;
-      }
-      p {
-        @extend %parrafo;
-      }
-    }
-  .skills {
+.sobre-mi {
+  .row {
+    @extend %row;
     h2 {
       @extend %titulos;
     }
@@ -45,17 +30,32 @@
       @extend %parrafo;
     }
   }
-
-  
+  background-color: #bebebe
+}
+.skills {
+  h2 {
+    @extend %titulos;
+  }
   p {
     @extend %parrafo;
   }
 }
-
-
-
-
-
+.portfolio {
+  h2 {
+    @extend %titulos;
+  }
+  p {
+    @extend %parrafo;
+  }
+}
+.contacto {
+  h2 {
+    @extend %titulos;
+  }
+  p {
+    @extend %parrafo;
+  }
+}
 
 @-webkit-keyframes scroll {
   0% {
