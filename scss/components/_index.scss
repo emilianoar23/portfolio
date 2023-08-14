@@ -105,11 +105,11 @@
 }
 
 .skills {
-  h2 {
-    @extend %titulos;
-  }
-  p {
-    @extend %parrafo;
+  @extend %row;
+  img {
+    width: 90px;
+    height: auto;
+    margin: 30px;
   }
 }
 .portfolio {

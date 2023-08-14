@@ -12,3 +12,7 @@ body {
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
 }
+
+::selection {
+    background-color: #9D9B9D;
+}

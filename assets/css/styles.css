@@ -10,23 +10,26 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased; }
 
-.sobre-mi .row {
+::selection {
+  background-color: #9D9B9D; }
+
+.sobre-mi .row, .skills {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
   padding: 0 2%; }
-  .sobre-mi .content.row {
+  .sobre-mi .content.row, .content.skills {
     padding: 50px 2% 250px; }
 
-.sobre-mi .row h2, .time-line h2, .skills h2, .portfolio h2, .contacto h2 {
+.sobre-mi .row h2, .time-line h2, .portfolio h2, .contacto h2 {
   font-size: 2rem;
   line-height: 1.8;
   font-weight: lighter;
   margin-bottom: 10px;
   text-align: center; }
 
-.sobre-mi .row p, .skills p, .portfolio p, .contacto p {
+.sobre-mi .row p, .portfolio p, .contacto p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px; }
@@ -170,6 +173,11 @@ header {
           left: -2.5rem;
           font-size: 0.8rem; }
 
+.skills img {
+  width: 90px;
+  height: auto;
+  margin: 30px; }
+
 @-webkit-keyframes scroll {
   0% {
     opacity: 1;
@@ -192,23 +200,23 @@ header {
     -ms-transform: translateY(20px);
     transform: translateY(20px); } }
 
-.sobre-mi .row {
+.sobre-mi .row, .skills {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
   padding: 0 2%; }
-  .sobre-mi .content.row {
+  .sobre-mi .content.row, .content.skills {
     padding: 50px 2% 250px; }
 
-.sobre-mi .row h2, .time-line h2, .skills h2, .portfolio h2, .contacto h2 {
+.sobre-mi .row h2, .time-line h2, .portfolio h2, .contacto h2 {
   font-size: 2rem;
   line-height: 1.8;
   font-weight: lighter;
   margin-bottom: 10px;
   text-align: center; }
 
-.sobre-mi .row p, .skills p, .portfolio p, .contacto p {
+.sobre-mi .row p, .portfolio p, .contacto p {
   font-size: 1.1rem;
   line-height: 2;
   margin-bottom: 10px; }
