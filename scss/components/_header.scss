@@ -12,19 +12,28 @@ header {
     opacity: 0;
     top: -100px;
     padding-bottom: 6px;
-    .row {
+    .header-container {
         width: 100%;
-        max-width: 940px;
+        max-width: 1440px;
         margin: 0 auto;
         position: relative;
         padding: 0 2%;
         .logo {
             float: left;
-            display: block;
+            display: flex;
+            align-items: center;
             line-height: 1;
             margin-bottom: 10px;
+            color: $font-white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 12px;
+            &:hover {
+                color: $dt-color1;
+            }
             img {
                 width: 25px;
+                margin-right: 8px;
             }
         }
     }

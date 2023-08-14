@@ -48,19 +48,27 @@ header {
   opacity: 0;
   top: -100px;
   padding-bottom: 6px; }
-  header .row {
+  header .header-container {
     width: 100%;
-    max-width: 940px;
+    max-width: 1440px;
     margin: 0 auto;
     position: relative;
     padding: 0 2%; }
-    header .row .logo {
+    header .header-container .logo {
       float: left;
-      display: block;
+      display: flex;
+      align-items: center;
       line-height: 1;
-      margin-bottom: 10px; }
-      header .row .logo img {
-        width: 25px; }
+      margin-bottom: 10px;
+      color: #FAFBFB;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 12px; }
+      header .header-container .logo:hover {
+        color: #edc720; }
+      header .header-container .logo img {
+        width: 25px;
+        margin-right: 8px; }
   header nav ul li {
     position: relative; }
     header nav ul li a {
