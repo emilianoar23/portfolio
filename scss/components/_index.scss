@@ -29,6 +29,9 @@
       @extend %titulos;
       color: $font-dark;
       padding: 30px 0;
+      span {
+        color: $dt-color1;
+      }
     }
     p {
       @extend %parrafo;
@@ -46,9 +49,9 @@
     color: $font-white;
     margin: 30px 0;
     span {
-      display: inline-block; /* Para que el margen y ancho funcionen */
-      border-bottom: 1px solid; /* Cambia el valor para el ancho y color del subrayado */
-      margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+      display: inline-block;
+      border-bottom: 1px solid; 
+      margin-bottom: 10px;
       width: 17%;
     }
   }
