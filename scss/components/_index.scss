@@ -48,11 +48,12 @@
     @extend %titulos;
     color: $font-white;
     margin: 30px 0;
+    width: 100%;
     span {
       display: inline-block;
       border-bottom: 1px solid; 
       margin-bottom: 10px;
-      width: 17%;
+      width: 20%;
     }
   }
   .container {
