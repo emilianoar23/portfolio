@@ -124,15 +124,18 @@
 				ab velit praesentium vitae quidem consequatur deleniti recusandae odit officiis. Quidem, cupiditate.</p>
 		</section>
 		<section class="contacto">
-			<h2 id="contacto">Nos pongamos en contacto</h2>
+			<h2 id="contacto">
+				<span class="animated-text">Nos pongamos</span>
+				en contacto
+			</h2>
 			<form class="form" id="contact-form">
-				<p><input type="text" id="name" placeholder="Tu nombre" required></p>
-				<p><input type="email" id="email" placeholder="Tu correo electrónico" required></p>
-				<p><textarea id="message" placeholder="Contáme en que puedo ayudarte" required></textarea></p>
+				<p><input type="text" id="name" placeholder="Tu nombre" required autocomplete="off"></p>
+				<p><input type="email" id="email" placeholder="Tu correo electrónico" required autocomplete="off"></p>
+				<p><textarea id="message" placeholder="Contáme en que puedo ayudarte" required autocomplete="off"></textarea></p>
 				<button type="submit">Enviar Mensaje</button>
 			</form>
-			<div class="message-overlay" id="message-overlay">
-				<div class="message-popup">
+			<div class="alerta-envio" id="alerta-envio">
+				<div class="mensaje-popup">
 					<p>El mensaje fue enviado exitosamente!</p>
 				</div>
 			</div>
