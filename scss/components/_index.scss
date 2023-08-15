@@ -127,23 +127,24 @@
   align-items: center;
   background-color: $bg-bdy;
   h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
     text-align: center;
-    position: relative;
+    margin: 0 auto;
     .animated-text {
-      opacity: 0;
-      display: inline-block;
-      position: absolute;
-      left: 0;
-      animation: fadeInLeft 1s forwards;
+      text-align: center;
+      span {
+        opacity: 0;
+        animation: fadeInSlow 1s forwards;
+      }
     }
-    @keyframes fadeInLeft {
+    @keyframes fadeInSlow {
       0% {
         opacity: 0;
-        transform: translateX(-20px);
       }
       100% {
         opacity: 1;
-        transform: translateX(0);
       }
     }
   }

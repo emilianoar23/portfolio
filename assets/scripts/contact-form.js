@@ -1,17 +1,32 @@
+//animacion de texto
 $(document).ready(function () {
-    var animatedText = $(".animated-text").text().split("");
-    $(".animated-text").empty();
-
-    $.each(animatedText, function (i, v) {
-        $(".animated-text").append($("<span>").text(v));
-    });
-
-    var numSpans = $(".animated-text span").length;
-    for (i = 0; i <= numSpans; i++) {
-        $(".animated-text span:nth-child(" + i + ")").css("animation-delay", i / 10 + "s");
+    function startAnimation() {
+        let animatedText = $(".animated-text").text().split("");
+        $(".animated-text").empty();
+        $.each(animatedText, function (i, v) {
+            $(".animated-text").append($("<span>").text(v));
+        });
+        let numSpans = $(".animated-text span").length;
+        for (let i = 0; i < numSpans; i++) {
+            $(".animated-text span:nth-child(" + (i + 1) + ")").css("animation-delay", i / 10 + "s");
+        }
     }
+
+    function restartAnimation() {
+        $(".animated-text span").css("opacity", 0);
+        setTimeout(function () {
+            $(".animated-text span").css("animation-delay", "0s");
+            $(".animated-text span").css("opacity", 1);
+            startAnimation();
+        }, 100);
+    }
+
+    startAnimation();
+
+    setInterval(restartAnimation, 15000);
 });
 
+//formulario
 document.getElementById('contact-form').addEventListener('submit', function (event) {
     event.preventDefault();
 
