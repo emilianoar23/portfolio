@@ -125,28 +125,17 @@
 		</section>
 		<section class="contacto">
 			<h2 id="contacto">Nos pongamos en contacto</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi
-				amet
-				nobis repellat natus sequi sint consectetur excepturi doloribus vero provident consequuntur accusamus
-				quisquam nesciunt cupiditate soluta alias illo et deleniti voluptates facilis repudiandae similique
-				dolore
-				quaerat architecto perspiciatis officiis dolor ullam expedita suscipit neque minima rem praesentium
-				inventore ab officia quos dignissimos esse quam placeat iste porro eius! Minus, aspernatur nesciunt
-				consectetur. Sit, eius, itaque, porro, beatae impedit officia tenetur reiciendis autem vitae a quae
-				ipsam
-				repudiandae odio dolorum quaerat asperiores possimus corporis optio animi quisquam laboriosam nihil quam
-				voluptatum quidem veritatis iste culpa iure modi perspiciatis recusandae ipsa libero officiis aliquam
-				doloremque similique id quasi atque distinctio enim sapiente ratione in quia eum perferendis earum
-				blanditiis. Nobis, architecto, veniam molestias minus iste necessitatibus est ab in earum ratione
-				eveniet
-				soluta molestiae sed illo nostrum nemo debitis. Minus, quod totam aliquam ea asperiores fugit quaerat
-				excepturi dolores ratione numquam consequatur id unde alias provident vero incidunt exercitationem
-				similique
-				consequuntur hic possimus? Fuga, eveniet quaerat inventore corporis laborum eligendi enim soluta
-				obcaecati
-				aliquid veritatis provident amet laudantium est quisquam dolore exercitationem modi? Distinctio,
-				pariatur,
-				ab velit praesentium vitae quidem consequatur deleniti recusandae odit officiis. Quidem, cupiditate.</p>
+			<form class="form" id="contact-form">
+				<p><input type="text" id="name" placeholder="Tu nombre" required></p>
+				<p><input type="email" id="email" placeholder="Tu correo electrónico" required></p>
+				<p><textarea id="message" placeholder="Contáme en que puedo ayudarte" required></textarea></p>
+				<button type="submit">Enviar Mensaje</button>
+			</form>
+			<div class="message-overlay" id="message-overlay">
+				<div class="message-popup">
+					<p>El mensaje fue enviado exitosamente!</p>
+				</div>
+			</div>
 		</section>
 	</main>
 	<footer>
@@ -169,6 +158,7 @@
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="./assets/scripts/header-footer.js"></script>
+	<script src="./assets/scripts/contact-form.js"></script>
 </body>
 
 </html>
