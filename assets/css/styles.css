@@ -191,7 +191,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #dddddd; }
+  background-image: url(../../assets/img/contact-background.jpg);
+  background-size: cover; }
   .contacto h2 {
     display: flex;
     flex-direction: column;

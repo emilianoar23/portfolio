@@ -125,7 +125,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: $bg-bdy;
+  background-image: url(../../assets/img/contact-background.jpg);
+  background-size: cover;
   h2 {
     display: flex;
     flex-direction: column;
