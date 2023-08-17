@@ -107,6 +107,9 @@
 
 .skills {
   @extend %row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   img {
     width: 90px;
     height: auto;

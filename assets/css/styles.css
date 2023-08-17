@@ -182,10 +182,14 @@ header {
           left: -2.5rem;
           font-size: 0.8rem; }
 
-.skills img {
-  width: 90px;
-  height: auto;
-  margin: 30px; }
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .skills img {
+    width: 90px;
+    height: auto;
+    margin: 30px; }
 
 .contacto {
   display: flex;
