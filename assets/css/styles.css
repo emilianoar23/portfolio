@@ -286,7 +286,8 @@ header {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background: white;
+      background: #2b292c;
+      color: #edc720;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }

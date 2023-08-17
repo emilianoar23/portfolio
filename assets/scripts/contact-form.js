@@ -23,7 +23,7 @@ $(document).ready(function () {
 
     startAnimation();
 
-    setInterval(restartAnimation, 15000);
+    setInterval(restartAnimation, 10000);
 });
 
 //formulario
