@@ -1,30 +1,11 @@
 //animacion de texto
-$(document).ready(function () {
-    function startAnimation() {
-        let animatedText = $(".animated-text").text().split("");
-        $(".animated-text").empty();
-        $.each(animatedText, function (i, v) {
-            $(".animated-text").append($("<span>").text(v));
-        });
-        let numSpans = $(".animated-text span").length;
-        for (let i = 0; i < numSpans; i++) {
-            $(".animated-text span:nth-child(" + (i + 1) + ")").css("animation-delay", i / 10 + "s");
-        }
-    }
-
-    function restartAnimation() {
-        $(".animated-text span").css("opacity", 0);
-        setTimeout(function () {
-            $(".animated-text span").css("animation-delay", "0s");
-            $(".animated-text span").css("opacity", 1);
-            startAnimation();
-        }, 100);
-    }
-
-    startAnimation();
-
-    setInterval(restartAnimation, 10000);
-});
+jQuery(document).ready(function($) {
+    $('h2').mousemove(function(e) {
+      let rXP = (e.pageX - this.offsetLeft - $(this).width() / 2);
+      let rYP = (e.pageY - this.offsetTop - $(this).height() / 2);
+      $('h2').css('text-shadow', `${rYP / 10}px ${rXP / 80}px rgba(227, 6, 19, 0.8), ${rYP / 8}px ${rXP / 60}px rgba(255, 237, 0, 1), ${rXP / 70}px ${rYP / 12}px rgba(0, 159, 227, 0.7)`);
+    });
+  });
 
 //formulario
 document.getElementById('contact-form').addEventListener('submit', function (event) {
