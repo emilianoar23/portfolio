@@ -197,17 +197,20 @@ header {
   align-items: center;
   background-image: url(../../assets/img/contact-background.jpg);
   background-size: cover; }
-  .contacto h2 {
+  .contacto .animated-text {
     display: flex;
     flex-direction: column;
+    margin: 10px auto;
     font-size: 4rem;
-    text-align: center;
-    margin: 0 auto; }
-    .contacto h2 .animated-text {
-      text-align: center; }
-      .contacto h2 .animated-text span {
-        opacity: 0;
-        animation: fadeInSlow 1s forwards; }
+    line-height: 1.8; }
+  .contacto .top-text,
+  .contacto .bottom-text {
+    opacity: 0;
+    animation: fadeInSlow 1.5s forwards; }
+  .contacto .top-text {
+    animation-delay: 0.9s; }
+  .contacto .bottom-text {
+    animation-delay: 1.9s; }
 
 @keyframes fadeInSlow {
   0% {

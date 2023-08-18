@@ -1,11 +1,31 @@
 //animacion de texto
-jQuery(document).ready(function($) {
-    $('h2').mousemove(function(e) {
-      let rXP = (e.pageX - this.offsetLeft - $(this).width() / 2);
-      let rYP = (e.pageY - this.offsetTop - $(this).height() / 2);
-      $('h2').css('text-shadow', `${rYP / 10}px ${rXP / 80}px rgba(227, 6, 19, 0.8), ${rYP / 8}px ${rXP / 60}px rgba(255, 237, 0, 1), ${rXP / 70}px ${rYP / 12}px rgba(0, 159, 227, 0.7)`);
+$(document).ready(function () {
+    let topText = $(".top-text").text().split("");
+    let bottomText = $(".bottom-text").text().split("");
+
+    $(".animated-text").css("font-family", "'Montserrat', sans-serif");
+
+    $(".top-text, .bottom-text").empty();
+
+    $.each(topText, function (i, v) {
+        $(".top-text").append($("<span>").text(v));
     });
-  });
+
+    $.each(bottomText, function (i, v) {
+        $(".bottom-text").append($("<span>").text(v));
+    });
+
+    let numTopSpans = $(".top-text span").length;
+    let numBottomSpans = $(".bottom-text span").length;
+
+    for (let i = 0; i <= numTopSpans; i++) {
+        $(".top-text span:nth-child(" + i + ")").css("animation-delay", i / 10 + "s");
+    }
+
+    for (let i = 0; i <= numBottomSpans; i++) {
+        $(".bottom-text span:nth-child(" + i + ")").css("animation-delay", i / 10 + "s");
+    }
+});
 
 //formulario
 document.getElementById('contact-form').addEventListener('submit', function (event) {

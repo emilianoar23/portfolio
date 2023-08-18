@@ -130,18 +130,23 @@
   align-items: center;
   background-image: url(../../assets/img/contact-background.jpg);
   background-size: cover;
-  h2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 4rem;
-    text-align: center;
-    margin: 0 auto;
-    .animated-text {
-      text-align: center;
-      span {
-        opacity: 0;
-        animation: fadeInSlow 1s forwards;
-      }
+  .animated-text {
+      display: flex;
+      flex-direction: column;
+      margin: 10px auto;
+      font-size: 4rem;
+      line-height: 1.8;
+    }
+    .top-text,
+    .bottom-text {
+      opacity: 0;
+      animation: fadeInSlow 1.5s forwards;
+    }
+    .top-text {
+      animation-delay: 0.9s;
+    }
+    .bottom-text {
+      animation-delay: 1.9s;
     }
     @keyframes fadeInSlow {
       0% {
@@ -151,7 +156,6 @@
         opacity: 1;
       }
     }
-  }
   .form {
     width: 540px;
     height: 440px;
