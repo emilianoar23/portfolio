@@ -130,32 +130,42 @@
   align-items: center;
   background-image: url(../../assets/img/contact-background.jpg);
   background-size: cover;
-  .animated-text {
-      display: flex;
-      flex-direction: column;
-      margin: 10px auto;
-      font-size: 4rem;
-      line-height: 1.8;
-    }
-    .top-text,
-    .bottom-text {
-      opacity: 0;
-      animation: fadeInSlow 1.5s forwards;
-    }
-    .top-text {
-      animation-delay: 0.9s;
-    }
-    .bottom-text {
-      animation-delay: 1.9s;
-    }
-    @keyframes fadeInSlow {
-      0% {
-        opacity: 0;
+  h4 {
+    letter-spacing: .08rem;
+    font-size: 4rem;
+    margin: auto;
+    .animated-text-container {
+      position: relative;
+      &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3.5rem;
+        position: absolute;
+        z-index: 1;
+        top: 4.5rem;
       }
-      100% {
-        opacity: 1;
+      &:nth-child(1) {
+        z-index: 1;
+      }
+      &:nth-child(2) {
+        z-index: 2;
+      }
+      &:nth-child(3) {
+        z-index: 3;
+        .animated-text {
+          color: $dt-color1;
+          text-shadow: 1px 1px 8px $shadow-color;
+        }
       }
     }
+    .animated-text {
+      transition: all 1s ease;
+      &.concealed {
+        transform: translateY(4rem);
+      }
+    }
+  }
   .form {
     width: 540px;
     height: 440px;
