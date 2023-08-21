@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,9 @@ body {
 
 ::selection {
   background-color: #9D9B9D; }
+
+.contacto h4 div {
+  font-family: 'Montserrat', sans-serif; }
 
 .sobre-mi .row, .skills {
   width: 100%;
@@ -219,7 +223,7 @@ header {
         z-index: 3; }
         .contacto h4 .animated-text-container:nth-child(3) .animated-text {
           color: #edc720;
-          text-shadow: 1px 1px 8px #000; }
+          text-shadow: 1px 1px 2px #000; }
     .contacto h4 .animated-text {
       transition: all 1s ease; }
       .contacto h4 .animated-text.concealed {
