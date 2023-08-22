@@ -136,13 +136,16 @@
 				  <div class="animated-text concealed">Contacto</div>
 				</div>
 			  </h4>
-			<class= action="https://formsubmit.co/emilianoromeroft@gmail.com" method="POST" class="form" id="contact-form">
+			<form action="https://formsubmit.co/emilianoromeroft@gmail.com" method="POST" class="form" id="contact-form">
 				<p><input type="text" id="name" placeholder="Tu nombre" required autocomplete="off" name="name"></p>
-				<p><input type="email" id="email" placeholder="Tu correo electrónico" required autocomplete="off" name="email">
+				<p><input type="email" id="email" placeholder="Tu correo electrónico" required autocomplete="off" name="email"></p>
 				</p>
 				<p><textarea id="message" placeholder="Contáme en que puedo ayudarte" required autocomplete="off" name="comments"></textarea>
 				</p>
 				<button type="submit">Enviar Mensaje</button>
+
+				<input type="hidden" name="_next" value="https://emilianoromero.com.ar">
+				<input type="hidden" name="_captcha" value="false">
 			</form>
 			<div class="alerta-envio" id="alerta-envio">
 				<div class="mensaje-popup">
