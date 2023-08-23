@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+.sobre-mi .row, .skills {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%; }
+  .sobre-mi .content.row, .content.skills {
+    padding: 50px 2% 250px; }
+
+.sobre-mi .row h2, .time-line h2, .portfolio h2 {
+  font-size: 2rem;
+  line-height: 1.8;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.sobre-mi .row p, .portfolio p {
+  font-size: 1.1rem;
+  line-height: 2;
+  margin-bottom: 10px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +30,8 @@
 body {
   display: flex;
   flex-direction: column;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background-color: #dddddd; }
 
 ::selection {
   background-color: #9D9B9D; }
@@ -121,8 +143,7 @@ header {
       line-height: 3; }
 
 .sobre-mi {
-  height: 90vh;
-  background-color: #dddddd; }
+  height: 90vh; }
   .sobre-mi .row h2 {
     color: #29242B;
     padding: 50px 0; }

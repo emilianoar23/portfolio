@@ -1,3 +1,4 @@
+@import"../base/variables";
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
 * {
@@ -11,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
+    background-color: $bg-bdy;
 }
 
 ::selection {
