@@ -108,13 +108,23 @@
 
 .skills {
   @extend %row;
+  height: 80vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
   img {
     width: 90px;
     height: auto;
     margin: 30px;
+    transition: transform 0.5s;
+    &:hover {
+      transform: rotateY(360deg);
+    }
   }
 }
 .portfolio {

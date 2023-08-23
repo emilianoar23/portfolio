@@ -1,4 +1,13 @@
-//animacion de texto
+//animacion seccion de skills
+$(document).ready(function() {
+  $('.skills img').hover(function() {
+      $(this).css('transform', 'rotateY(360deg)');
+  }, function() {
+      $(this).css('transform', 'rotateY(0deg)');
+  });
+});
+
+//animacion de texto contacto
 $(document).ready(function() {
     let $eachWord = $('.animated-text');
     let wordCountIterator = 0;

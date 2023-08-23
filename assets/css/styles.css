@@ -188,13 +188,21 @@ header {
           font-size: 0.8rem; }
 
 .skills {
+  height: 80vh;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+  align-items: center; }
+  .skills .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
   .skills img {
     width: 90px;
     height: auto;
-    margin: 30px; }
+    margin: 30px;
+    transition: transform 0.5s; }
+    .skills img:hover {
+      transform: rotateY(360deg); }
 
 .contacto {
   display: flex;
