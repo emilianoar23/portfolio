@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
-  background-color: #dddddd; }
+  background-color: #ececec; }
 
 ::selection {
   background-color: #9D9B9D; }
@@ -143,6 +143,9 @@ header {
       line-height: 3; }
 
 .sobre-mi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 90vh; }
   .sobre-mi .row h2 {
     color: #29242B;
