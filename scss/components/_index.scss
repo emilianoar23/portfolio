@@ -1,7 +1,8 @@
 .hero {
-  background: rgb(43,41,44);
-  background: linear-gradient(54deg, rgba(43,41,44,1) 68%, rgba(237,199,32,0.6083683473389356) 100%);
-  height: 70vh;
+  position: relative;
+  z-index: 2;
+  background: rgb(43, 41, 44);
+  height: 60vh;
   width: 100%;
   text-align: center;
   color: $dt-color1;
@@ -18,6 +19,44 @@
       line-height: 1;
       color: $font-white;
     }
+  }
+}
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  background-color: $dt-color1;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 500ms;
+}
+.waves::before,
+.waves::after {
+  content: '';
+  position: absolute;
+  width: 300vw;
+  height: 300vw;
+  top: -65vw;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+.waves::before {
+  border-radius: 44%;
+  background: rgba(51, 51, 51, 1);
+  animation: waves 8s linear infinite;
+}
+.waves::after {
+  border-radius: 44%;
+  background: rgba(51, 51, 51, 0.5);
+  animation: waves 15s linear infinite;
+}
+@keyframes waves {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
   }
 }
 .sobre-mi {

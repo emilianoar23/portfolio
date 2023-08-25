@@ -1,7 +1,7 @@
 //hero section
 $(document).ready(function () {
   var typed = new Typed('.text', {
-    strings: ["DESARROLLADOR WEB", "FOTÓGRAFO", "COFFEE DRINKER"],
+    strings: ["DESARROLLADOR WEB", "FOTÓGRAFO",],
     typeSpeed: 80,
     backSpeed: 40,
     backDelay: 3000,
