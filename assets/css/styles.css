@@ -123,24 +123,24 @@ header {
   border-bottom: 1px solid #9c8416; }
 
 .hero {
-  position: relative;
-  background: url(../../assets/img/5055263.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background: #2b292c;
+  background: linear-gradient(54deg, #2b292c 68%, rgba(237, 199, 32, 0.608368) 100%);
+  height: 70vh;
+  width: 100%;
   text-align: center;
-  padding-top: 110px;
-  min-height: 500px;
-  letter-spacing: 2px; }
-  .hero h2 {
-    font-size: 50px;
-    line-height: 1.3; }
-    .hero h2 span {
-      font-size: 25px;
-      color: #edc720;
-      border-bottom: 2px solid #edc720;
-      padding-bottom: 12px;
-      line-height: 3; }
+  color: #edc720; }
+  .hero .hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 70px; }
+    .hero .hero-text .text {
+      display: inline-block;
+      font-size: 1em;
+      font-weight: 300;
+      margin: 0;
+      line-height: 1;
+      color: #FAFBFB; }
 
 .sobre-mi {
   display: flex;

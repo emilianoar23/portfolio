@@ -1,9 +1,13 @@
-//animacion seccion de skills
-$(document).ready(function() {
-  $('.skills img').hover(function() {
-      $(this).css('transform', 'rotateY(360deg)');
-  }, function() {
-      $(this).css('transform', 'rotateY(0deg)');
+//hero section
+$(document).ready(function () {
+  var typed = new Typed('.text', {
+    strings: ["DESARROLLADOR WEB", "FOTÓGRAFO", "COFFEE DRINKER"],
+    typeSpeed: 80,
+    backSpeed: 40,
+    backDelay: 3000,
+    cursorChar: "_",
+    showCursor: true,
+    loop: true,
   });
 });
 

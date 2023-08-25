@@ -1,22 +1,22 @@
 .hero {
-  position: relative;
-  background: url(../../assets/img/5055263.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background: rgb(43,41,44);
+  background: linear-gradient(54deg, rgba(43,41,44,1) 68%, rgba(237,199,32,0.6083683473389356) 100%);
+  height: 70vh;
+  width: 100%;
   text-align: center;
-  padding-top: 110px;
-  min-height: 500px;
-  letter-spacing: 2px;
-  h2 {
-    font-size: 50px;
-    line-height: 1.3;
-    span {
-      font-size: 25px;
-      color: $dt-color1;
-      border-bottom: 2px solid $dt-color1;
-      padding-bottom: 12px;
-      line-height: 3;
+  color: $dt-color1;
+  .hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 70px;
+    .text {
+      display: inline-block;
+      font-size: 1em;
+      font-weight: 300;
+      margin: 0;
+      line-height: 1;
+      color: $font-white;
     }
   }
 }
