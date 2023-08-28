@@ -1,15 +1,18 @@
 //hero section
 $(document).ready(function () {
-  var typed = new Typed('.text', {
-    strings: ["DESARROLLADOR WEB", "FOTÓGRAFO",],
+  let typed = new Typed('.text', {
+    strings: ["HOLA, SOY EMILIANO"],
     typeSpeed: 80,
     backSpeed: 40,
     backDelay: 3000,
-    cursorChar: "_",
+    cursorChar: "|",
     showCursor: true,
     loop: true,
+    startDelay: 2000
   });
 });
+
+
 
 //animacion de texto contacto
 $(document).ready(function() {
