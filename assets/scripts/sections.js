@@ -1,19 +1,3 @@
-//hero section
-$(document).ready(function () {
-  let typed = new Typed('.text', {
-    strings: ["HOLA, SOY EMILIANO"],
-    typeSpeed: 80,
-    backSpeed: 40,
-    backDelay: 3000,
-    cursorChar: "|",
-    showCursor: true,
-    loop: true,
-    startDelay: 2000
-  });
-});
-
-
-
 //animacion de texto contacto
 $(document).ready(function() {
     let $eachWord = $('.animated-text');

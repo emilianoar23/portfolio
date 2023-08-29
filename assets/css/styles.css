@@ -123,25 +123,25 @@ header {
   border-bottom: 1px solid #9c8416; }
 
 .hero {
-  position: relative;
-  z-index: 2;
   background: #2b292c;
-  height: 40vh;
-  width: 100%;
-  text-align: center;
-  color: #edc720; }
+  background: linear-gradient(180deg, #2b292c 0%, #6f7d80 100%);
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70vh;
+  width: 100%; }
   .hero .hero-text {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 3rem; }
-    .hero .hero-text .text {
-      display: inline-block;
-      font-size: 1em;
-      font-weight: 300;
-      margin: 0;
-      line-height: 1;
-      color: #FAFBFB; }
+    display: flex;
+    margin-left: 15px;
+    text-align: center; }
+    .hero .hero-text h1 {
+      font-size: 2.5rem;
+      font-weight: lighter;
+      color: #0e0d0d; }
+    .hero .hero-text h3 {
+      font-size: 1.15rem;
+      font-weight: 400;
+      color: #0e0d0d; }
 
 .sobre-mi {
   display: flex;
@@ -149,13 +149,13 @@ header {
   justify-content: center;
   height: 60vh; }
   .sobre-mi .row h2 {
-    color: #29242B;
+    color: #0e0d0d;
     padding: 50px 0; }
     .sobre-mi .row h2 span {
       color: #edc720;
       text-shadow: 1px 1px 1px #000; }
   .sobre-mi .row p {
-    color: #29242B; }
+    color: #0e0d0d; }
 
 .time-line {
   background-color: #2b292c;
@@ -320,7 +320,7 @@ header {
       .contacto .form button:hover {
         background: #edc720;
         border: 2px solid #2b292c;
-        color: #29242B;
+        color: #0e0d0d;
         font-weight: bold; }
   .contacto .alerta-envio {
     display: none;
