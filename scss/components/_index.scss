@@ -125,11 +125,19 @@
     width: 90px;
     height: auto;
     margin: 30px;
-    transition: transform 0.5s;
-    &:hover {
-      transform: rotateY(360deg);
+    &.rotate-horizontal {
+      animation: rotate360 0.8s linear;
+      transform: rotateY(0deg);
     }
   }
+}
+@keyframes rotate360 {
+0% {
+  transform: rotateY(0deg);
+}
+100% {
+  transform: rotateY(360deg);
+}
 }
 .portfolio {
   h2 {

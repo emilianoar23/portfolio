@@ -1,3 +1,13 @@
+//rotacion de skills
+$('.icons img').mouseenter(function () {
+  if (!$(this).hasClass('rotate-horizontal')) {
+    $(this).addClass('rotate-horizontal');
+    setTimeout(() => {
+      $(this).removeClass('rotate-horizontal');
+    }, 1000);
+  }
+});
+
 //animacion de texto contacto
 $(document).ready(function() {
     let $eachWord = $('.animated-text');
@@ -24,7 +34,6 @@ $(document).ready(function() {
   
     $('h4').on('mouseenter', startAnimation);
   });
-
 
 //formulario
 document.addEventListener('DOMContentLoaded', function () {
