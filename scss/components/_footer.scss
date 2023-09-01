@@ -23,10 +23,26 @@ footer {
         align-items: center;
         margin: 0 100px;
         font-weight: bold;
-    }
-    p {
-        color: $font-white;
-        margin-bottom: 15px;
+        p {
+            color: $font-white;
+            margin-bottom: 15px;
+            font-weight: 500;
+            position: relative;
+            padding-bottom: 10px;
+            /* Espacio adicional para la línea de subrayado */
+    
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 2px;
+                left: -8px;
+                /* Ajusta la posición para abarcar más ancho */
+                width: calc(110% + 10px);
+                /* Ancho con espacio adicional para abarcar más ancho */
+                border-bottom: 1px solid $font-white;
+                /* Grosor y color del subrayado */
+            }
+        }
     }
     .social-icons {
         display: flex;
@@ -46,5 +62,9 @@ footer {
             text-decoration: none;
             font-weight: lighter;
         }
+    }
+    #copyright {
+        color: $font-white;
+        font-size: 0.8rem;
     }
 }

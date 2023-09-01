@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
 .sobre-mi .row, .skills {
@@ -415,9 +416,25 @@ footer {
     align-items: center;
     margin: 0 100px;
     font-weight: bold; }
-  footer p {
-    color: #FAFBFB;
-    margin-bottom: 15px; }
+    footer .social-media p,
+    footer .contact-info p {
+      color: #FAFBFB;
+      margin-bottom: 15px;
+      font-weight: 500;
+      position: relative;
+      padding-bottom: 10px;
+      /* Espacio adicional para la línea de subrayado */ }
+      footer .social-media p::after,
+      footer .contact-info p::after {
+        content: "";
+        position: absolute;
+        bottom: 2px;
+        left: -8px;
+        /* Ajusta la posición para abarcar más ancho */
+        width: calc(110% + 10px);
+        /* Ancho con espacio adicional para abarcar más ancho */
+        border-bottom: 1px solid #FAFBFB;
+        /* Grosor y color del subrayado */ }
   footer .social-icons {
     display: flex;
     justify-content: center;
@@ -431,6 +448,9 @@ footer {
     color: #edc720;
     text-decoration: none;
     font-weight: lighter; }
+  footer #copyright {
+    color: #FAFBFB;
+    font-size: 0.8rem; }
 
 @media only screen and (max-width: 766px) {
   .open-nav {
