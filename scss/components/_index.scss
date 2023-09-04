@@ -1,6 +1,14 @@
+@import"../base/variables";
 .hero {
   display: flex;
-  height: 70vh;
+  height: 80vh;
+  background-color: $dt-color2;
+  h1{
+    display: flex;
+    color: $font-white;
+    font-size: 4rem;
+    font-weight: 600;
+  }
     #particles-js {
       width: 100%;
       height: 100%;

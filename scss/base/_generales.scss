@@ -1,11 +1,11 @@
 @import"../base/variables";
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Raleway:wght@100;200;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -17,12 +17,4 @@ body {
 
 ::selection {
     background-color: $bg-container2;
-}
-
-.contacto {
-    h4 {
-        div {
-            font-family: 'Montserrat', sans-serif;
-        }
-    }
 }
