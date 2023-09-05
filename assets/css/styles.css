@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Raleway:wght@100;200;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .sobre-mi .row, .skills {
   width: 100%;
   max-width: 1250px;
@@ -12,7 +12,7 @@
 .sobre-mi .row h2, .time-line h2, .portfolio h2 {
   font-size: 2rem;
   line-height: 1.8;
-  font-weight: lighter;
+  font-weight: 300;
   margin-bottom: 10px;
   text-align: center; }
 
@@ -49,7 +49,7 @@ body {
 .sobre-mi .row h2, .time-line h2, .portfolio h2 {
   font-size: 2rem;
   line-height: 1.8;
-  font-weight: lighter;
+  font-weight: 300;
   margin-bottom: 10px;
   text-align: center; }
 
@@ -132,7 +132,7 @@ header {
 .sobre-mi .row h2, .time-line h2, .portfolio h2 {
   font-size: 2rem;
   line-height: 1.8;
-  font-weight: lighter;
+  font-weight: 300;
   margin-bottom: 10px;
   text-align: center; }
 
@@ -146,10 +146,8 @@ header {
   height: 80vh;
   background-color: #2D2137; }
   .hero h1 {
-    display: flex;
     color: #FAFBFB;
-    font-size: 4rem;
-    font-weight: 600; }
+    font-size: 4rem; }
   .hero #particles-js {
     width: 100%;
     height: 100%; }
@@ -224,21 +222,29 @@ header {
           font-size: 0.8rem; }
 
 .skills {
-  height: 80vh;
-  display: flex;
-  align-items: center; }
+  height: 90vh;
+  display: flex; }
   .skills .icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; }
-  .skills img {
-    width: 90px;
-    height: auto;
-    margin: 30px; }
-    .skills img.rotate-horizontal {
-      animation: rotate360 0.8s linear;
-      transform: rotateY(0deg); }
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    margin: 60px auto; }
+    .skills .icons h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: auto;
+      text-transform: uppercase;
+      color: #0e0d0d; }
+    .skills .icons img {
+      width: 70px;
+      height: auto;
+      margin: 30px; }
+      .skills .icons img.rotate-horizontal {
+        animation: rotate360 0.8s linear;
+        transform: rotateY(0deg); }
 
 @keyframes rotate360 {
   0% {
@@ -395,7 +401,7 @@ header {
 .sobre-mi .row h2, .time-line h2, .portfolio h2 {
   font-size: 2rem;
   line-height: 1.8;
-  font-weight: lighter;
+  font-weight: 300;
   margin-bottom: 10px;
   text-align: center; }
 

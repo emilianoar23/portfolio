@@ -4,10 +4,8 @@
   height: 80vh;
   background-color: $dt-color2;
   h1{
-    display: flex;
     color: $font-white;
     font-size: 4rem;
-    font-weight: 600;
   }
     #particles-js {
       width: 100%;
@@ -104,22 +102,31 @@
 
 .skills {
   @extend %row;
-  height: 80vh;
+  height: 90vh;
   display: flex;
-  align-items: center;
   .icons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
-  img {
-    width: 90px;
-    height: auto;
-    margin: 30px;
-    &.rotate-horizontal {
-      animation: rotate360 0.8s linear;
-      transform: rotateY(0deg);
+    width: 60%;
+    height: 60%;
+    margin: 60px auto;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: auto;
+      text-transform: uppercase;
+      color: $font-dark;
+    }
+    img {
+      width: 70px;
+      height: auto;
+      margin: 30px;
+      &.rotate-horizontal {
+        animation: rotate360 0.8s linear;
+        transform: rotateY(0deg);
+      }
     }
   }
 }
