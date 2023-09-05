@@ -17,6 +17,7 @@
   align-items: center;
   justify-content: center;
   height: 60vh;
+  margin-bottom: 4rem;
   .row {
     @extend %row;
     h2 {
@@ -93,7 +94,7 @@
           position: absolute;
           top: 0;
           left: -2.5rem;
-          font-size: 0.8rem;
+          font-size: 0.9rem;
         }
       }
     }
@@ -155,6 +156,7 @@
   h4 {
     letter-spacing: .08rem;
     font-size: 4rem;
+    font-weight: 500;
     margin: 20px auto;
     .animated-text-container {
       position: relative;
