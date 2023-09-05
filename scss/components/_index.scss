@@ -2,10 +2,11 @@
 .hero {
   display: flex;
   height: 80vh;
-  background-color: $dt-color2;
+  background-color: $bg-hdr-ftr;
   h1{
     color: $font-white;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin: 20px;
   }
     #particles-js {
       width: 100%;

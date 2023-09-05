@@ -144,10 +144,11 @@ header {
 .hero {
   display: flex;
   height: 80vh;
-  background-color: #2D2137; }
+  background-color: #2b292c; }
   .hero h1 {
     color: #FAFBFB;
-    font-size: 4rem; }
+    font-size: 3rem;
+    margin: 20px; }
   .hero #particles-js {
     width: 100%;
     height: 100%; }
