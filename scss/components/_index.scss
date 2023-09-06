@@ -1,6 +1,7 @@
 @import"../base/variables";
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center; /* Centrar horizontalmente el contenido */
   align-items: center; /* Centrar verticalmente el contenido */
   height: 80vh;
@@ -16,14 +17,17 @@
   }
 
   .hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     text-align: center;
-    z-index: 1; /* Asegura que el texto esté sobre la animación */
     
     h1 {
       color: $font-white;
       font-size: 3rem;
       margin: 0;
+      text-align: center;
     }
   }
 }

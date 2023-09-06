@@ -143,6 +143,7 @@ header {
 
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   /* Centrar horizontalmente el contenido */
   align-items: center;
@@ -157,14 +158,16 @@ header {
     top: 0;
     left: 0; }
   .hero .hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    text-align: center;
-    z-index: 1;
-    /* Asegura que el texto esté sobre la animación */ }
+    text-align: center; }
     .hero .hero-text h1 {
       color: #FAFBFB;
       font-size: 3rem;
-      margin: 0; }
+      margin: 0;
+      text-align: center; }
 
 .sobre-mi {
   display: flex;
