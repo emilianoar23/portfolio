@@ -143,15 +143,28 @@ header {
 
 .hero {
   display: flex;
+  justify-content: center;
+  /* Centrar horizontalmente el contenido */
+  align-items: center;
+  /* Centrar verticalmente el contenido */
   height: 80vh;
-  background-color: #2b292c; }
-  .hero h1 {
-    color: #FAFBFB;
-    font-size: 3rem;
-    margin: 20px; }
+  background-color: #2b292c;
+  position: relative; }
   .hero #particles-js {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .hero .hero-text {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    /* Asegura que el texto esté sobre la animación */ }
+    .hero .hero-text h1 {
+      color: #FAFBFB;
+      font-size: 3rem;
+      margin: 0; }
 
 .sobre-mi {
   display: flex;
