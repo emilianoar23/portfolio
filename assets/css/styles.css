@@ -143,30 +143,16 @@ header {
 
 .hero {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* Centrar horizontalmente el contenido */
-  align-items: center;
-  /* Centrar verticalmente el contenido */
   height: 80vh;
-  background-color: #2b292c;
-  position: relative; }
+  background-color: #2b292c; }
   .hero #particles-js {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0; }
-  .hero .hero-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-align: center; }
-    .hero .hero-text h1 {
+    height: 100%; }
+    .hero #particles-js h1 {
       color: #FAFBFB;
       font-size: 3rem;
-      margin: 0;
+      font-weight: 300;
+      margin: 20px;
       text-align: center; }
 
 .sobre-mi {

@@ -1,37 +1,20 @@
 @import"../base/variables";
 .hero {
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centrar horizontalmente el contenido */
-  align-items: center; /* Centrar verticalmente el contenido */
   height: 80vh;
   background-color: $bg-hdr-ftr;
-  position: relative;
-  
   #particles-js {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .hero-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-align: center;
-    
     h1 {
       color: $font-white;
       font-size: 3rem;
-      margin: 0;
+      font-weight: 300;
+      margin: 20px;
       text-align: center;
     }
   }
 }
-
 .sobre-mi {
   display: flex;
   align-items: center;
