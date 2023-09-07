@@ -173,3 +173,28 @@ const update = function () {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+const headerText = document.createElement('h1');
+const paraText = document.createElement('p');
+
+// Agregar contenido y estilos a los elementos
+headerText.textContent = 'Emiliano Romero';
+headerText.style.fontSize = '4rem';
+headerText.style.fontWeight = '100';
+headerText.style.color = 'white';
+
+paraText.textContent = 'Diseño y fotografía';
+paraText.style.color = 'white';
+
+// Obtener el elemento ".hero" existente
+const hero = document.querySelector('#particles-js');
+
+// Agregar los elementos de texto al elemento ".hero"
+hero.appendChild(headerText);
+hero.appendChild(paraText);
+
+// Centrar los elementos de texto en el centro de ".hero"
+hero.style.display = 'flex';
+hero.style.flexDirection = 'column';
+hero.style.alignItems = 'center';
+hero.style.justifyContent = 'center';
