@@ -477,22 +477,30 @@ footer {
     font-weight: lighter; }
   footer #copyright {
     color: #FAFBFB;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    text-align: center; }
 
 @media all and (min-width: 320px) and (max-width: 425px) {
   .sobre-mi {
     height: auto; }
     .sobre-mi .row {
       max-width: 425px; }
-  .time-line {
-    max-width: auto; }
-    .time-line h2 {
-      font-size: 1rem; }
+      .sobre-mi .row h2 {
+        margin-bottom: 0; }
+      .sobre-mi .row p {
+        margin: 0.6rem 1rem; }
+  .time-line h2 {
+    font-size: 1.8rem; }
+    .time-line h2 span {
+      width: 80%; }
+  .time-line .container {
+    margin-left: 20px; }
     .time-line .container ul li {
       width: 15rem;
       padding: 1rem; }
   .skills {
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 4rem; }
     .skills h2 {
       font-size: 1.3rem;
       text-align: center;
