@@ -28,10 +28,11 @@
   h2 {
     font-size: 1.3rem;
     text-align: center;
+    margin-bottom: 0;
   }
   .icons {
     width: auto;
-
+    margin: 20px auto;
     img {
       width: 50px;
       height: auto;
@@ -39,7 +40,6 @@
     }
   }
 }
-
 .contacto {
   h4 {
     font-size: 2rem;
