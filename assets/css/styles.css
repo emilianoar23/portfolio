@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .sobre-mi .row, .skills {
   width: 100%;
@@ -454,19 +453,15 @@ footer {
       margin-bottom: 15px;
       font-weight: 500;
       position: relative;
-      padding-bottom: 10px;
-      /* Espacio adicional para la línea de subrayado */ }
+      padding-bottom: 10px; }
       footer .social-media p::after,
       footer .contact-info p::after {
         content: "";
         position: absolute;
         bottom: 2px;
         left: -8px;
-        /* Ajusta la posición para abarcar más ancho */
         width: calc(110% + 10px);
-        /* Ancho con espacio adicional para abarcar más ancho */
-        border-bottom: 1px solid #FAFBFB;
-        /* Grosor y color del subrayado */ }
+        border-bottom: 1px solid #FAFBFB; }
   footer .social-icons {
     display: flex;
     justify-content: center;
@@ -496,6 +491,17 @@ footer {
     .time-line .container ul li {
       width: 15rem;
       padding: 1rem; }
+  .skills {
+    flex-direction: column; }
+    .skills h2 {
+      font-size: 1.3rem;
+      text-align: center; }
+    .skills .icons {
+      width: auto; }
+      .skills .icons img {
+        width: 50px;
+        height: auto;
+        margin: 20px; }
   .contacto h4 {
     font-size: 2rem; }
   footer .footer-content {

@@ -20,14 +20,14 @@ $pointSize: 2.5;
 
 //Estilo de seccion
 %row {
-    width: 100%;
-    max-width: 1250px;
-    margin: 0 auto;
-    position: relative;
-    padding: 0 2%;
-    &.content {
-      padding: 50px 2% 250px;
-    }
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+  &.content {
+    padding: 50px 2% 250px;
+  }
 }
 
 //Estilo de titulos
