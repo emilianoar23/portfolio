@@ -480,7 +480,7 @@ footer {
     font-size: 0.8rem;
     text-align: center; }
 
-@media all and (min-width: 320px) and (max-width: 425px) {
+@media all and (min-width: 320px) and (max-width: 424px) {
   .logo {
     margin-left: 20px; }
   .sobre-mi {
@@ -503,7 +503,7 @@ footer {
       padding: 1rem; }
   .skills {
     flex-direction: column;
-    margin-bottom: 4rem; }
+    margin-bottom: 3rem; }
     .skills h2 {
       font-size: 1.3rem;
       text-align: center;
@@ -516,12 +516,63 @@ footer {
         height: auto;
         margin: 20px; }
   .contacto h4 {
-    font-size: 2.5rem; }
+    font-size: 2.8rem;
+    text-align: center; }
   footer {
     height: auto; }
     footer .footer-content {
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      margin-top: 30px; }
+      footer .footer-content .social-media {
+        margin-bottom: 25px; }
+      footer .footer-content .contact-info {
+        margin-bottom: 50px; } }
+
+@media all and (min-width: 425px) and (max-width: 768px) {
+  .logo {
+    margin-left: 15px; }
+  .sobre-mi {
+    height: auto; }
+    .sobre-mi .row {
+      max-width: 765px; }
+      .sobre-mi .row h2 {
+        margin-bottom: 0; }
+      .sobre-mi .row p {
+        margin: 0.6rem 1rem; }
+  .time-line h2 {
+    font-size: 1.8rem; }
+    .time-line h2 span {
+      width: 80%; }
+  .time-line .container {
+    width: auto;
+    margin-left: 50px; }
+    .time-line .container ul li {
+      width: auto;
+      padding: 1rem; }
+  .skills {
+    flex-direction: column;
+    margin-bottom: 2rem; }
+    .skills h2 {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 0; }
+    .skills .icons {
+      width: auto;
+      margin: 20px auto; }
+      .skills .icons img {
+        width: 60px;
+        height: auto;
+        margin: 20px; }
+  .contacto h4 {
+    font-size: 3rem;
+    text-align: center; }
+  footer {
+    height: auto; }
+    footer .footer-content {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px; }
       footer .footer-content .social-media {
         margin-bottom: 25px; }
       footer .footer-content .contact-info {
@@ -529,7 +580,7 @@ footer {
 
 @media only screen and (max-width: 766px) {
   .open-nav {
-    max-height: 400px; }
+    max-height: 600px; }
     .open-nav .mobile-toggle {
       transform: rotate(-90deg);
       -webkit-transform: rotate(-90deg); } }
