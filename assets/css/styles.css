@@ -567,8 +567,9 @@ footer {
         height: auto;
         margin: 20px; }
   .contacto h4 {
-    font-size: 3rem;
-    text-align: center; }
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4rem; }
   .contacto .form {
     height: 500px; }
   footer {
