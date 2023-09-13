@@ -504,8 +504,7 @@ footer {
       width: auto;
       padding: 1rem; }
   .skills {
-    flex-direction: column;
-    margin-bottom: 3rem; }
+    flex-direction: column; }
     .skills h2 {
       font-size: 1.3rem;
       text-align: center;
