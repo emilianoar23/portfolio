@@ -237,10 +237,12 @@ header {
 
 .skills {
   height: 90vh;
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   .skills h2 {
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
     margin: 40px;
     text-transform: uppercase;
     color: #0e0d0d; }
@@ -251,7 +253,7 @@ header {
     align-items: center;
     width: 60%;
     height: 60%;
-    margin: 60px auto; }
+    margin: 10px auto; }
     .skills .icons img {
       width: 70px;
       height: auto;
@@ -690,23 +692,27 @@ nav ul li {
         margin-bottom: 0; }
       .sobre-mi .row p {
         margin: 1rem 1rem; }
-  .skills {
+  .time-line h2 {
+    font-size: 2rem; }
+    .time-line h2 span {
+      width: 30%; }
+  .time-line .skills {
     flex-direction: column;
     margin-bottom: 3rem; }
-    .skills h2 {
+    .time-line .skills h2 {
       font-size: 1.8rem;
       text-align: center;
       margin-bottom: 0; }
-    .skills .icons {
+    .time-line .skills .icons {
       width: auto;
       margin: 40px auto; }
-      .skills .icons img {
+      .time-line .skills .icons img {
         width: 70px;
         height: auto;
         margin: 40px; }
-  .contacto h4 {
+  .time-line .contacto h4 {
     font-size: 3.5rem;
     margin: 2.5rem; }
-  .contacto .form {
+  .time-line .contacto .form {
     height: 450px;
     width: 45%; } }

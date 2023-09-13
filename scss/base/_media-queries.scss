@@ -299,6 +299,13 @@ nav {
       }
     }
   }
+  .time-line {
+    h2 {
+      font-size: 2rem;
+      span {
+        width: 30%;
+      }
+    }
     .skills {
       flex-direction: column;
       margin-bottom: 3rem;
@@ -328,3 +335,4 @@ nav {
       }
     }
   }
+}
