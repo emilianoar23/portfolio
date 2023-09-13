@@ -5,7 +5,7 @@
   .sobre-mi {
     height: auto;
     .row {
-      max-width: 425px;
+      max-width: 423px;
       h2 {
         margin-bottom: 0;
       }
@@ -54,7 +54,7 @@
       text-align: center;
     }
     .form {
-      height: 480px;
+      height: 430px;
     }
   }
   footer {
@@ -93,12 +93,12 @@
     h2 {
       font-size: 1.8rem;
       span {
-        width: 80%;
+        width: 40%;
       }
     }
     .container {
       width: auto;
-      margin-left: 50px;
+      margin-left: 60px;
       ul li {
         width: auto;
         padding: 1rem;
@@ -130,7 +130,7 @@
       margin-top: 4rem;
     }
     .form {
-      height: 500px;
+      height: 450px;
     }
   }
   footer {
@@ -223,8 +223,55 @@ nav {
   }
 }
 @media all and (min-width: 768px) and (max-width: 1024px){
-
-
+  .logo {
+    margin-left: 30px;
+  }
+  .sobre-mi {
+    height: auto;
+    .row {
+      max-width: 1022px;
+      h2 {
+        margin-bottom: 0;
+      }
+      p {
+        margin: 1rem 1rem;
+      }
+    }
+  }
+  .time-line {
+    h2 {
+      font-size: 1.8rem;
+      span {
+        width: 30%;
+      }
+    }
+    .container {
+      width: auto;
+      margin-left: 70px;
+      ul li {
+        width: auto;
+        padding: 1rem;
+      }
+    }
+  }
+  .skills {
+    flex-direction: column;
+    margin-bottom: 3rem;
+    h2 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .icons {
+      width: auto;
+      margin: 20px auto;
+      img {
+        width: 70px;
+        height: auto;
+        margin: 40px;
+      }
+    }
+  }
 
 
 
