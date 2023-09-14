@@ -53,6 +53,7 @@
       text-align: center;
     }
     .form {
+      margin: 30px auto 70px;
       height: 450px;
     }
   }
@@ -75,6 +76,9 @@
 @media all and (min-width: 425px) and (max-width: 768px){
   .logo {
     margin-left: 15px;
+  }
+  .hero {
+    height: 100vh;
   }
   .sobre-mi {
     height: auto;
@@ -129,7 +133,8 @@
       margin-top: 4rem;
     }
     .form {
-      height: 450px;
+      margin: 20px auto 70px;
+      height: 30rem;
     }
   }
   footer {
@@ -225,6 +230,9 @@ nav {
   .logo {
     margin-left: 30px;
   }
+  .hero {
+    height: 100vh;
+  }
   .sobre-mi {
     height: auto;
     .row {
@@ -277,14 +285,29 @@ nav {
       margin: 2rem;
     }
     .form {
-      height: 450px;
-      width: 40%;
+      margin: 20px auto 70px;
+      height: 30rem;
+      width: 26rem;
+    }
+  }
+}
+@media all and (min-width: 768px) and (max-width: 890px){
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+    .form {
+      margin: 20px auto 70px;
+      height: 30rem;
+      width: 30rem;
     }
   }
 }
 @media all and (min-width: 1025px) and (max-width: 1440px){
   .logo {
     margin-left: 30px;
+  }
+  .hero {
+    height: 100vh;
   }
   .sobre-mi {
     height: auto;
@@ -305,6 +328,7 @@ nav {
         width: 30%;
       }
     }
+  }
     .skills {
       flex-direction: column;
       margin-bottom: 3rem;
@@ -329,9 +353,8 @@ nav {
         margin: 2.5rem;
       }
       .form {
-        height: 450px;
-        width: 45%;
+        height: 30rem;
+        width: 32rem;
       }
     }
   }
-}

@@ -1,7 +1,7 @@
 @import"../base/variables";
 .hero {
   position: relative;
-  height: 90vh;
+  height: 100vh;
   background-color: $bg-hdr-ftr;
   #particles-js {
     width: 100%;
@@ -210,7 +210,7 @@
   }
   .form {
     width: 540px;
-    height: 440px;
+    height: 32rem;
     background: $bg-hdr-ftr;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px $shadow-color;

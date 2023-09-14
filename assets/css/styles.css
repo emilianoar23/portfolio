@@ -142,7 +142,7 @@ header {
 
 .hero {
   position: relative;
-  height: 90vh;
+  height: 100vh;
   background-color: #2b292c; }
   .hero #particles-js {
     width: 100%;
@@ -304,7 +304,7 @@ header {
         transform: translateY(4rem); }
   .contacto .form {
     width: 540px;
-    height: 440px;
+    height: 32rem;
     background: #2b292c;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
@@ -520,6 +520,7 @@ footer {
     font-size: 2.8rem;
     text-align: center; }
   .contacto .form {
+    margin: 30px auto 70px;
     height: 450px; }
   footer {
     height: auto; }
@@ -535,6 +536,8 @@ footer {
 @media all and (min-width: 425px) and (max-width: 768px) {
   .logo {
     margin-left: 15px; }
+  .hero {
+    height: 100vh; }
   .sobre-mi {
     height: auto; }
     .sobre-mi .row {
@@ -572,7 +575,8 @@ footer {
     text-align: center;
     margin-top: 4rem; }
   .contacto .form {
-    height: 450px; }
+    margin: 20px auto 70px;
+    height: 30rem; }
   footer {
     height: auto; }
     footer .footer-content {
@@ -641,6 +645,8 @@ nav ul li {
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .logo {
     margin-left: 30px; }
+  .hero {
+    height: 100vh; }
   .sobre-mi {
     height: auto; }
     .sobre-mi .row {
@@ -677,12 +683,24 @@ nav ul li {
     font-size: 3.2rem;
     margin: 2rem; }
   .contacto .form {
-    height: 450px;
-    width: 40%; } }
+    margin: 20px auto 70px;
+    height: 30rem;
+    width: 26rem; } }
+
+@media all and (min-width: 768px) and (max-width: 890px) {
+  .contacto {
+    flex-direction: column;
+    align-items: center; }
+    .contacto .form {
+      margin: 20px auto 70px;
+      height: 30rem;
+      width: 30rem; } }
 
 @media all and (min-width: 1025px) and (max-width: 1440px) {
   .logo {
     margin-left: 30px; }
+  .hero {
+    height: 100vh; }
   .sobre-mi {
     height: auto; }
     .sobre-mi .row {
@@ -695,23 +713,23 @@ nav ul li {
     font-size: 2rem; }
     .time-line h2 span {
       width: 30%; }
-  .time-line .skills {
+  .skills {
     flex-direction: column;
     margin-bottom: 3rem; }
-    .time-line .skills h2 {
+    .skills h2 {
       font-size: 1.8rem;
       text-align: center;
       margin-bottom: 0; }
-    .time-line .skills .icons {
+    .skills .icons {
       width: auto;
       margin: 40px auto; }
-      .time-line .skills .icons img {
+      .skills .icons img {
         width: 70px;
         height: auto;
         margin: 40px; }
-  .time-line .contacto h4 {
+  .contacto h4 {
     font-size: 3.5rem;
     margin: 2.5rem; }
-  .time-line .contacto .form {
-    height: 450px;
-    width: 45%; } }
+  .contacto .form {
+    height: 30rem;
+    width: 32rem; } }
