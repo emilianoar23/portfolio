@@ -304,7 +304,7 @@ header {
         transform: translateY(4rem); }
   .contacto .form {
     width: 540px;
-    height: 32rem;
+    height: auto;
     background: #1e1e1f;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
@@ -348,6 +348,8 @@ header {
       margin: 28px 0 0;
       font-size: 14px;
       color: #FAFBFB; }
+    .contacto .form .g-recaptcha {
+      margin: 10px 0; }
     .contacto .form button {
       float: right;
       padding: 8px 12px;

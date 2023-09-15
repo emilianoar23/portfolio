@@ -210,7 +210,7 @@
   }
   .form {
     width: 540px;
-    height: 32rem;
+    height: auto;
     background: $bg-hdr-ftr;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px $shadow-color;
@@ -258,6 +258,9 @@
       margin: 28px 0 0;
       font-size: 14px;
       color: $font-white;
+    }
+    .g-recaptcha{
+      margin: 10px 0;
     }
     button {
       float: right;
