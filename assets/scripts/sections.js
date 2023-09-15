@@ -47,6 +47,17 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+$('#contact-form').submit(function(event) {
+  event.preventDefault();
+  grecaptcha.ready(function() {
+      grecaptcha.execute('6Lc25CkoAAAAAImOgJg6EDfPBnyon75ecg0RNxgM', {action: 'registro'}).then(function(token) {
+          $('#form').prepend('<input type="hidden" name="token" value="' + token + '">');
+          $('#form').prepend('<input type="hidden" name="action" value="registro">');
+          $('#form').unbind('submit').submit();
+      });
+  });
+});
+
 //hero section
 const particlesConfig = {
   "particles": {
