@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Obtén el token reCAPTCHA v3 antes de enviar el formulario
     grecaptcha.ready(function () {
-      grecaptcha.execute('6Lfp0ikoAAAAAOL6__i65vZBcGBcN7gv2BsYQvqN', { action: 'submit' }).then(function (token) {
+      grecaptcha.execute('6Le82ikoAAAAAErH02D5xVXlqzRtfDEPmUh1HIW6', { action: 'submit' }).then(function (token) {
         // Agrega el token reCAPTCHA como un campo oculto en el formulario
         document.getElementById('recaptcha-token').value = token;
 
