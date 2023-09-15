@@ -37,20 +37,7 @@ $(document).ready(function () {
 
 //formulario
 document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('contact-form').addEventListener('submit', function (event) {
-    event.preventDefault(); // Evita que el formulario se envíe automáticamente
-
-    // Obtén el token reCAPTCHA v3 antes de enviar el formulario
-    grecaptcha.ready(function () {
-      grecaptcha.execute('6Le82ikoAAAAAErH02D5xVXlqzRtfDEPmUh1HIW6', { action: 'submit' }).then(function (token) {
-        // Agrega el token reCAPTCHA como un campo oculto en el formulario
-        document.getElementById('recaptcha-token').value = token;
-
-        // Envía el formulario
-        document.getElementById('contact-form').submit();
-      });
-    });
-
+  document.getElementById('contact-form').addEventListener('submit', function () {
     let messageOverlay = document.getElementById('alerta-envio');
     messageOverlay.style.display = 'block';
 
@@ -59,10 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 3500); // Ocultar después de 3.5 segundos
   });
 });
-
-function onSubmit(token) {
-  document.getElementById("contact-form").submit();
-}
 
 //hero section
 const particlesConfig = {
