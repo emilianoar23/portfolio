@@ -523,7 +523,11 @@ footer {
     text-align: center; }
   .contacto .form {
     margin: 30px auto 70px;
-    height: 450px; }
+    height: 560px; }
+    .contacto .form .g-recaptcha {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
   footer {
     height: auto; }
     footer .footer-content {
@@ -578,7 +582,7 @@ footer {
     margin-top: 4rem; }
   .contacto .form {
     margin: 20px auto 70px;
-    height: 30rem; }
+    height: 560px; }
   footer {
     height: auto; }
     footer .footer-content {
@@ -686,7 +690,7 @@ nav ul li {
     margin: 2rem; }
   .contacto .form {
     margin: 20px auto 70px;
-    height: 30rem;
+    height: 560px;
     width: 26rem; } }
 
 @media all and (min-width: 768px) and (max-width: 890px) {
@@ -695,7 +699,7 @@ nav ul li {
     align-items: center; }
     .contacto .form {
       margin: 20px auto 70px;
-      height: 30rem;
+      height: 560px;
       width: 30rem; } }
 
 @media all and (min-width: 1025px) and (max-width: 1440px) {
@@ -733,5 +737,5 @@ nav ul li {
     font-size: 3.5rem;
     margin: 2.5rem; }
   .contacto .form {
-    height: 30rem;
+    height: 560px;
     width: 32rem; } }

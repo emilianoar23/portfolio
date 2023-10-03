@@ -54,7 +54,12 @@
     }
     .form {
       margin: 30px auto 70px;
-      height: 450px;
+      height: 560px;
+      .g-recaptcha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
   footer {
@@ -134,7 +139,7 @@
     }
     .form {
       margin: 20px auto 70px;
-      height: 30rem;
+      height: 560px;
     }
   }
   footer {
@@ -286,7 +291,7 @@ nav {
     }
     .form {
       margin: 20px auto 70px;
-      height: 30rem;
+      height: 560px;
       width: 26rem;
     }
   }
@@ -297,7 +302,7 @@ nav {
     align-items: center;
     .form {
       margin: 20px auto 70px;
-      height: 30rem;
+      height: 560px;
       width: 30rem;
     }
   }
@@ -353,7 +358,7 @@ nav {
         margin: 2.5rem;
       }
       .form {
-        height: 30rem;
+        height: 560px;
         width: 32rem;
       }
     }
